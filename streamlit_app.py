@@ -54,7 +54,7 @@ with wordcloud_container:
     # stop words list
     
     stop = nltk.corpus.stopwords.words('english')
-    stop.extend(["inventory", "scale", "index", "questionnaire", "evaluation"," assessment","measure","questionaire","robot","measurment"])
+    stop.extend(["inventory", "scale", "index", "questionnaire", "evaluation"," assessment","measure","questionaire","robot","measurement"])
 
     # Create and generate a word cloud image:
     survey_df.cleanSurvey = survey_df.Survey.str.lower().str.strip().str.split()
@@ -78,11 +78,6 @@ with dataset_container:
         st.write("You selected:")
         st.json(selection["selected_rows"])
     
-
-
-
-
-
 
 
 
