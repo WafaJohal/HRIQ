@@ -52,7 +52,8 @@ with wordcloud_container:
     st.header("Wordcloud of keywords used in the dataset")
     text = " ".join(name for name in survey_df.Survey)
     # stop words list
-    stop = stopwords.words('english')
+    
+    stop = nltk.corpus.stopwords.words('english')
     stop.extend(["inventory", "scale", "index", "questionnaire", "evaluation"," assessment","measure","questionaire","robot","measurment"])
 
     # Create and generate a word cloud image:
