@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from st_aggrid import AgGrid, GridOptionsBuilder
 from st_aggrid.shared import GridUpdateMode
-import streamlit_wordcloud as wordcloud
+#import streamlit_wordcloud as wordcloud
 
 
 
