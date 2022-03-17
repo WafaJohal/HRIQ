@@ -4,3 +4,7 @@ openpyxl
 streamlit-wordcloud
 wordcloud
 nltk
+
+
+
+python3 -m nltk.downloader stopwords

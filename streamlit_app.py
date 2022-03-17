@@ -3,9 +3,7 @@ import pandas as pd
 from st_aggrid import AgGrid, GridOptionsBuilder
 from st_aggrid.shared import GridUpdateMode
 import streamlit_wordcloud as st_wordcloud
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 from nltk.corpus import stopwords
-import collections
 
 header_container = st.container()
 wordcloud_container = st.container()
